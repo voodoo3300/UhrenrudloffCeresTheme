@@ -116,6 +116,16 @@
                                 </a>
                             </li>
                         {% endif %}
+						
+                            <li class="list-inline-item dropdown uhrenrudloff-service">
+                                <a class="nav-link"
+                                   data-toggle="collapse"
+                                   href="#uhrenrudloff-info"
+                                   aria-expanded="false"
+                                   aria-controls="uhrenrudloff-info"
+                                   data-parent="#controlsList">
+                                    Service <i aria-hidden="true" class="fa fa-caret-down mr-1" style="padding-left:.5em;"></i></a>
+                            </li>
 
                         {% if enableCurrencySelect %}
                             <li class="list-inline-item dropdown control-languages">
@@ -246,6 +256,13 @@
                     {{ Twig.endif() }}
                 </div>
             {% endif %}
+<!-- Test-Overlay -->
+<div id="uhrenrudloff-info" class="collapse" style=""><div class="container-max"><ul><li><a href="#">Standorte &amp; Öffnungszeiten</a>
+</li><li><a href="#">Kontakt</a>
+</li><li><a href="#">Meisterwerkstatt</a>
+</li></ul></div></div>
+
+
 
             {% if enableCurrencySelect and not isPreview %}
                 <div id="currencySelect" class="cmp cmp-currency-select collapse">
