@@ -8,6 +8,6 @@ class UhrenrudloffCeresThemeContainer
 {
     public function call(Twig $twig):string
     {
-        return $twig->render('UhrenrudloffCeresTheme::UhrenrudloffCeresTheme');
+        return $twig->render('UhrenrudloffCeresTheme::content.UhrenrudloffCeresTheme');
     }
 }
