@@ -1,0 +1,18 @@
+{
+    "name"                  :"UhrenrudloffCeresTheme",
+    "description"           :"Uhrenrudloff Customisation",
+    "namespace"             :"UhrenrudloffCeresTheme",
+    "author"                :"voodoo33000",
+    "keywords"              : ["theme", "Ceres", "template"],
+    "type"                  :"theme",
+    "require"               : [],
+    "serviceProvider"       :"UhrenrudloffCeresTheme\\Providers\\ThemeServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"UhrenrudloffCeresTheme\\Containers\\ThemeContainer",
+            "name"          :"Uhrenrudloff Customs",
+            "description"   :"Customisations und so"
+        }
+    ]
+}
