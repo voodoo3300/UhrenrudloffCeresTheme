@@ -13,6 +13,7 @@ use Plenty\Plugin\ConfigRepository;
 //class UhrenrudloffCeresThemeServiceProvider extends ServiceProvider
 class UhrenrudloffCeresThemeServiceProvider extends TemplateServiceProvider
 {
+	const PRIORITY = 0;
  	/**
 	 * Register the service provider.
 	 */
@@ -23,6 +24,6 @@ class UhrenrudloffCeresThemeServiceProvider extends TemplateServiceProvider
 
 	public function boot(Twig $twig, Dispatcher $eventDispatcher, ConfigRepository $config)
     {
-		$this->overrideTemplate("Ceres::Widgets.Header.TopBarWidget", "MyTheme::Widgets.Header.CustomTopBarWidget");	
+		$this->overrideTemplate("Ceres::Widgets.Header.TopBarWidget", "UhrenrudloffCeresTheme::Widgets.Header.CustomTopBarWidget");	
     }
 }
