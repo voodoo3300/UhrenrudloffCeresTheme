@@ -9,6 +9,7 @@ use IO\Helper\ComponentContainer;
 use Plenty\Plugin\Events\Dispatcher;
 use Plenty\Plugin\ServiceProvider;
 use Plenty\Plugin\Templates\Twig;
+use Plenty\Plugin\ConfigRepository;
 //class UhrenrudloffCeresThemeServiceProvider extends ServiceProvider
 class UhrenrudloffCeresThemeServiceProvider extends TemplateServiceProvider
 {
