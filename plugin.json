@@ -6,11 +6,11 @@
     "keywords"              : ["theme", "Ceres", "template"],
     "type"                  :"theme",
     "require"               : [],
-    "serviceProvider"       :"UhrenrudloffCeresTheme\\Providers\\ThemeServiceProvider",
+    "serviceProvider"       :"UhrenrudloffCeresTheme\\Providers\\UhrenrudloffCeresThemeServiceProvider",
     "dataProviders"         :
     [
         {
-            "key"           :"UhrenrudloffCeresTheme\\Containers\\ThemeContainer",
+            "key"           :"UhrenrudloffCeresTheme\\Containers\\UhrenrudloffCeresThemeContainer",
             "name"          :"Uhrenrudloff Customs",
             "description"   :"Customisations und so"
         }
