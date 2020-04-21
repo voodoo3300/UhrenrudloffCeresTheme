@@ -14,4 +14,11 @@ class UhrenrudloffCeresThemeServiceProvider extends ServiceProvider
 	{
  
 	}
+
+	public function boot(Twig $twig, Dispatcher $eventDispatcher)
+    {
+		$this->overrideTemplate("Ceres::Widgets.Header.TopBarWidget", "MyTheme::Widgets.Header.CustomTopBarWidget");	
+    }
+
+
 }
