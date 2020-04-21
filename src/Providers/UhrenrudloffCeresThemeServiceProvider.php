@@ -2,12 +2,13 @@
  
 namespace UhrenrudloffCeresTheme\Providers;
  
-use Plenty\Plugin\ServiceProvider;
+//use Plenty\Plugin\ServiceProvider;
+use Plenty\Modules\Webshop\Template\Providers\TemplateServiceProvider
  
-class UhrenrudloffCeresThemeServiceProvider extends ServiceProvider
+//class UhrenrudloffCeresThemeServiceProvider extends ServiceProvider
+class UhrenrudloffCeresThemeServiceProvider extends TemplateServiceProvider
 {
- 
-	/**
+ 	/**
 	 * Register the service provider.
 	 */
 	public function register()
@@ -19,6 +20,4 @@ class UhrenrudloffCeresThemeServiceProvider extends ServiceProvider
     {
 		$this->overrideTemplate("Ceres::Widgets.Header.TopBarWidget", "MyTheme::Widgets.Header.CustomTopBarWidget");	
     }
-
-
 }
