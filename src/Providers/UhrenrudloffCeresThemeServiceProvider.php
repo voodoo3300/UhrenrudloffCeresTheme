@@ -21,7 +21,7 @@ class UhrenrudloffCeresThemeServiceProvider extends TemplateServiceProvider
  
 	}
 
-	public function boot()
+	public function boot(Twig $twig, Dispatcher $eventDispatcher, ConfigRepository $config)
     {
 		$this->overrideTemplate("Ceres::Widgets.Header.TopBarWidget", "MyTheme::Widgets.Header.CustomTopBarWidget");	
     }
