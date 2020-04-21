@@ -1,10 +1,10 @@
 <?php
  
-namespace Theme\Providers;
+namespace UhrenrudloffCeresTheme\Providers;
  
 use Plenty\Plugin\ServiceProvider;
  
-class ThemeServiceProvider extends ServiceProvider
+class UhrenrudloffCeresThemeServiceProvider extends ServiceProvider
 {
  
 	/**

@@ -1,10 +1,10 @@
 <?php
  
-namespace Theme\Containers;
+namespace UhrenrudloffCeresTheme\Containers;
  
 use Plenty\Plugin\Templates\Twig;
  
-class ThemeContainer
+class UhrenrudloffCeresThemeContainer
 {
     public function call(Twig $twig):string
     {
