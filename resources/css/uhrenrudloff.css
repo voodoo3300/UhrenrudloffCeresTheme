@@ -164,6 +164,7 @@ form#search-form {
         text-align: center;
         /* margin: 5px; */
         margin-top: 5px;
+        margin-bottom: 5px;
         float: left;
         /* font-weight: bold; */
         }
@@ -171,3 +172,4 @@ form#search-form {
         #uhrenrudloff-info ul li a:hover {
         background-color: #6c757d;
     }
+
