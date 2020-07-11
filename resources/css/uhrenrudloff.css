@@ -173,3 +173,12 @@ form#search-form {
         background-color: #6c757d;
     }
 
+#DisplayCallistoItemPropertiesTable {
+    width: 85%;
+    margin: 15px auto;
+    border: 1px solid #e3e7eb;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
