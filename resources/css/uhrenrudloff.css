@@ -25,6 +25,13 @@ form#search-form {
 }
 */
 
+/* Findologic */
+.top-bar-items form {
+    -webkit-box-flex: 1 !important;
+    -ms-flex-positive: 1 !important;
+    flex-grow: 1 !important;
+}
+
 /* DisplayItemProps */
 #DisplayCallistoItemPropertiesTable {
     color: #6c757d !important;
