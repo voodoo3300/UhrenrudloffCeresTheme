@@ -43,15 +43,6 @@ form#search-form {
     padding-right: 25px;
     }
     
-    
-    .top-bar {
-        background: #283b92;
-        background: -moz-linear-gradient(top, #283b92 0%, #0c1273 61%, #000066 100%);
-        background: -webkit-linear-gradient(top, #283b92 0%,#0c1273 61%,#000066 100%);
-        background: linear-gradient(to bottom, #283b92 0%,#0c1273 61%,#000066 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283b92', endColorstr='#000066',GradientType=0 );
-    }
-    
     .scroll-main-nav, .container > .navbar-header, .mainNavigation, nav#top_navigation, .scroll-main-nav.fixed, ul.nav.navbar-nav.navbar-main, .btn-primary, .PlentyWebshopButton, .PlentySubmitButton, .LiveSearchShowMoreArticleHint input[type="button"], .PlentyWebMyAccount .button, .PlentyWebMyAccount .inlineSubmitButton, .PlentyWebMyAccount .button, .PlentyWebMyAccount .inlineSubmitButton, .PlentyWebMyAccount input[type="button"]
     {
         background: #283b92;
