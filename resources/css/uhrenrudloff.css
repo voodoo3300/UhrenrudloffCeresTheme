@@ -166,3 +166,8 @@ form#search-form {
     border-radius: 5px;
 }
 
+.widget-text-shaddow-custom {
+    text-shadow: 2px 3px 10px black;
+    color: white;
+    font-weight: bold;
+}
